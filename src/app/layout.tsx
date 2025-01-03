@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Detailed Password Evaluator",
-  description: "A tool that evaluates your password's strength in detail.",
+  title: "Booking Demo",
+  description: "Demostrating basic Setmore widget integration",
 };
 
 export default function RootLayout({

@@ -29,10 +29,10 @@ export default function Home() {
         )}
       </div>
       {showWidget && (
-        <div className="mt-8">
+        <div className="mt-8 p-0 w-full max-w-xl">
           <iframe
             src="https://booking.setmore.com/scheduleappointment/8283bf7b-0a6b-4ae0-bfa7-46196c8b375f"
-            width="600"
+            width="100%"
             height="500"
             style={{ border: "none" }}
             title="Setmore Booking Widget"
