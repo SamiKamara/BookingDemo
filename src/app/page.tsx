@@ -16,13 +16,17 @@ export default function Home() {
           height={256}
           className="mb-12 object-contain"
         />
-        <p className="text-lg text-gray-700 text-center mx-5 md:mx-0 max-w-md mb-8">
-          Tämä on placeholder, joka on tarkoitettu esittelemään osia sivusta, jotka eivät kuulu Setmore-widgetiin.
+        <p className="text-lg text-gray-700 text-center mx-5 md:mx-0 
+                      max-w-md mb-8">
+          Tämä on placeholder, joka on tarkoitettu esittelemään osia sivusta,
+          jotka eivät kuulu Setmore-widgetiin.
         </p>
         {!showWidget && (
           <button
             onClick={() => setShowWidget(true)}
-            className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
+            className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 
+                       focus:outline-none focus:ring-2 focus:ring-offset-2 
+                       focus:ring-gray-700"
           >
             Varaa aika
           </button>
