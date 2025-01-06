@@ -13,16 +13,13 @@ export default function Home() {
           height={256}
           className="mb-12 object-contain"
         />
-
-        {/* Suomenkielinen selitys */}
-        <p className="text-lg text-gray-700 text-center mx-5 md:mx-0 max-w-md mb-8">
+        <p className="text-lg text-gray-700 text-center mx-5 md:mx-0 max-w-md mb-6">
           Tämä on yksinkertainen Next.js + TypeScript -projekti, joka esittelee,
           miten Setmore-widget voidaan sisällyttää sivulle iframen avulla.
         </p>
       </div>
-
-      {/* Iframe: Setmore-widget */}
-      <div className="mt-8 p-0 w-full max-w-xl">
+      
+      <div className="mt-6 mb-6 p-0 w-full max-w-xl">
         <iframe
           src="https://booking.setmore.com/scheduleappointment/8283bf7b-0a6b-4ae0-bfa7-46196c8b375f"
           width="100%"
@@ -34,9 +31,8 @@ export default function Home() {
           title="Setmore Booking Widget"
         ></iframe>
       </div>
-
-      {/* Englanninkielinen selitys widgetin alla */}
-      <div className="flex flex-col items-center mt-8">
+      
+      <div className="flex flex-col items-center mt-6">
         <p className="text-lg text-gray-700 text-center mx-5 md:mx-0 max-w-md">
           This is a simple Next.js + TypeScript project demonstrating how to
           embed a Setmore widget with an iframe. The widget is displayed in
